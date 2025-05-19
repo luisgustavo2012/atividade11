@@ -3,9 +3,70 @@ body {
   margin: 0;
   background: linear-gradient(to bottom, #000000, #1f1341);
 }
-p{
-  color: rgb(255, 255, 255);
-  text-align:center;
-  height: 700px;
-  text-size-adjust: 30px;
+
+.container {
+  position: relative;
+  padding: 60px 40px;
+}
+
+.decoracao {
+  height: 4px;
+  width: 100px;
+  background-image: repeating-linear-gradient(90deg, #5cc3ff 0, #5cc3ff 2px, transparent 2px, transparent 6px);
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.azul {
+  color: #5cc3ff;
+}
+
+.linha {
+  margin-top: 40px;
+  height: 2px;
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 80%, #5cc3ff 95%, #5cc3ff 100%);
+  width: 300px;
+  border-radius: 10px;
+}
+
+.icone {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.bloco {
+  background-color: #5cc3ff;
+  color: #000;
+  padding: 10px;
+  border-radius: 4px;
+  width: 60px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+.asterisco {
+  font-size: 24px;
+  display: block;
+}
+
+.texto {
+  font-size: 10px;
+  background-color: #000;
+  color: #5cc3ff;
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2px 4px;
+  border-radius: 2px;
 }
