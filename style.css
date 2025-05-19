@@ -5,6 +5,7 @@ body {
 }
 p{
   color: rgb(255, 255, 255);
-  text-align:start;
+  text-align:center;
   height: 700px;
+  text-size-adjust: 30px;
 }
