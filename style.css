@@ -10,8 +10,8 @@ body {
 }
 
 .decoracao {
-  height: 4px;
-  width: 100px;
+  height: 9px;
+  width: 300px;
   background-image: repeating-linear-gradient(90deg, #5cc3ff 0, #5cc3ff 2px, transparent 2px, transparent 6px);
   margin-bottom: 30px;
 }
